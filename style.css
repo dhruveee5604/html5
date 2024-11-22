@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Poster Container */
+.poster {
+  position: relative;
+  width: 300px; 
+  height: 450px; 
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Poster Image */
+.poster-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Poster Content */
+.poster-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+/* Title Styles */
+.title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: Italic;
+}
+
+/* Tagline Styles */
+.tagline {
+  font-size: 14px;
+  font-style: Bold;
+  margin: 6px 0;
+}
+
+/* Description Styles */
+.description {
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+/* Links Styles */
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  color: #008;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.links a:hover {
+  text-decoration: italic;
+}
